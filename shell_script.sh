@@ -1,4 +1,4 @@
 #!/bin/bash
 
-terminal -e Ipconfigurator
+terminal -e IpConfig
 ./shell_script.sh
