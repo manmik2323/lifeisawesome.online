@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 for jpg; do                                  # use $jpg in place of each filename given, in turn
     png=${jpg%.jpg}.png                      # construct the PNG version of the filename by replacing .jpg with .png
     printf 'converting "%s" ...\n' "$jpg"    # output status info to the user running the script
